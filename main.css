@@ -129,6 +129,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.members{
+    background-color: #F7F2F2;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
