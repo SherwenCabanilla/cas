@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishwagan</title>
     <link rel="stylesheet" href="main.css">
-    
 </head>
 <body>
 
@@ -19,6 +18,7 @@
             <a href="#members">Members</a>
             <a href="#contact">Contact</a>
         </div>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
     </div>
 
     <div class="hero" id="home">
@@ -67,6 +67,12 @@
         <p>Email: contact@vishwagan.com</p>
         <p>Phone: +123 456 7890</p>
     </div>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
 
 </body>
 </html>
